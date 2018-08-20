@@ -231,7 +231,7 @@ public class BST<E extends Comparable<E>> {
     //删除二叉树中的任意元素
 
     public void delete(E e){
-
+            delete(root,e);
     }
     private Node delete(Node node,E e){
        //如果node根节点找不到需要删除的元素，返回null
